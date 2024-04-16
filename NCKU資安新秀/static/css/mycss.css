@@ -1,0 +1,95 @@
+.bg-custom {
+    background-color: #A31F34;
+}
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 让容器占满视窗高度，使其在垂直方向上居中 */
+}
+.form-box {
+    border: 2px solid #420A15;  /* Pink border color */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #A6A9AB; /* Light pink background color */
+    color: #404040;
+    font-weight: bold; /* 設定字體加粗 */
+}
+
+.form-box button {
+    width:100%; /* 設定寬度為 100%，使其擴展至容器的寬度 */
+}
+
+.top-image {
+    width:30%;
+}
+
+.top-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+
+/* 選擇使用者名稱標籤(label) */
+form #id_username_label {
+    display: block; /* 將標籤設置為 block，使其在新行開始 */
+    margin-bottom: 3px; /* 設定間距為 3 像素 */
+}
+
+
+
+/* 選擇使用者名稱輸入(input)框 */
+form #id_username {
+    display: block; /* 將輸入框設置為 block，使其在新行開始 */
+    margin-bottom: 10px; /* 設定間距為 3 像素，可以根據需要調整 */
+    font-weight: bold; /* 設定字體加粗 */
+}
+
+
+/* 選擇密碼標籤(label) */
+form #id_password_label {
+    display: block; /* 將標籤設置為 block，使其在新行開始 */
+    margin-bottom: 3px; /* 設定間距為 3 像素 */
+}
+
+/* 選擇密碼輸入(input)框 */
+form #id_password {
+    display: block; /* 將輸入框設置為 block，使其在新行開始 */
+    margin-bottom: 10px; /* 設定間距為 30 像素，可以根據需要調整 */
+    font-weight: bold; /* 設定字體加粗 */
+}
+
+form .helptext {
+    display: none !important; /* 使用 !important 以確保覆蓋其他可能的樣式 */
+}
+
+
+
+/* 選擇電子信箱標籤(label) */
+form #id_email_label {
+    display: block; /* 將標籤設置為 block，使其在新行開始 */
+    margin-bottom: 3px; /* 設定間距為 3 像素 */
+}
+
+/* 選擇電子信箱輸入(input)框 */
+form #id_email {
+    display: block; /* 將輸入框設置為 block，使其在新行開始 */
+    margin-bottom: 10px; /* 設定間距為 10 像素，可以根據需要調整 */
+    font-weight: bold; /* 設定字體加粗 */
+}
+
+/* 選擇名字標籤(label) */
+form #id_first_name_label {
+    display: block; /* 將標籤設置為 block，使其在新行開始 */
+    margin-bottom: 3px; /* 設定間距為 3 像素 */
+}
+
+/* 選擇名字輸入(input)框 */
+form #id_first_name {
+    display: block; /* 將輸入框設置為 block，使其在新行開始 */
+    margin-bottom: 20px; /* 設定間距為 10 像素，可以根據需要調整 */
+    font-weight: bold; /* 設定字體加粗 */
+}

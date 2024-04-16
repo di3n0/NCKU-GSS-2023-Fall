@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {% if request.path == '/' %}
+        登入
+    {% elif 'register' in request.path %}
+        註冊
+    {% elif 'add' in request.path %}
+        登記
+    {% else %}
+        Default Title
+    {% endif %}
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/mycss.css' %}" type="text/css">
+{% endblock %}
+
+{% block body %}
+    <div class="center-form">
+        <div class="top-text">
+            {% if request.path == '/' %}
+                <p>登入</p>
+            {% elif 'register' in request.path %}
+                <p>註冊</p>
+            {% elif 'add' in request.path %}
+                <p>登記</p>
+            {% endif %}
+        </div>
+        <div class="form-box">
+            <form method="POST" action="">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="login100-form-btn" type="submit">
+                    {% if request.path == '/' %}
+                        Login
+                    {% elif 'register' in request.path %}
+                        Register
+                    {% elif 'add' in request.path %}
+                        Book
+                    {% endif %}
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="center-form">
+    <img src="{% static 'activate.jpg' %}" alt="Your Image" class="top-image">
+    </div>
+{% endblock %}
