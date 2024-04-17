@@ -18,20 +18,59 @@
 
   
 #### 第一次相見
-<img width="600" height="300" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
+<img src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
 
   
 #### 固定時間開會
-<img width="200" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
+<img src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
 
 #### 企業參訪
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20231026_GSS%E5%8F%83%E8%A8%AA.jpg"/>
 
 
 ### ZAP
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
+
+#### High
+**SQL 注入 - SQLite**
+https://xxxxxx.azurewebsites.net/meeting/register/
+解：.clean 輸入
+
+#### Medium
+**Content Security Policy (CSP) Header Not Set**
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">  
+@csp_update(SCRIPT_SRC="'self'")  
+Debug=False  
+
+CSP_DEFAULT_SRC = ("'self'",)  
+CSP_IMG_SRC = ("'none'",)  
+CSP_CHILD_SRC = ("'none'",)  
+CSP_FRAME_ANCESTORS = ("'self'",)  
+CSP_FORM_ACTION = ("'self'",)  
+
+
+**CSP: Wildcard Directive**
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; child-src 'none'; form-action 'self';">  
+
 
 
 ### Checkmarx （達到 0 漏洞檢出）
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
+
+#### High
+- Vulnerable packages
+
+#### Medium
+- Vulnerable packages
+- Parameter_Tampering
+- CSRF
+- DB_Parameter_Tampering
+
+### 安全的措施
+**註冊密碼**
+大寫、小寫、特殊字元、至少10碼
+  
+**API Authentication**
+使用者名稱和密碼傳送到伺服器，伺服器解碼後進行驗證。
+
 
