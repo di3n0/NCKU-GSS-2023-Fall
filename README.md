@@ -73,7 +73,7 @@ CSP_FORM_ACTION = ("'self'",)
 
 **CSP: Wildcard Directive**
 ```python
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; child-src 'none'; form-action 'self';">  
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; child-src 'none'; form-action 'self';">  
 ```
 
 <br/>
