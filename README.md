@@ -4,6 +4,12 @@
 為資安產業培植新血、預約潛力人才。  
 說明頁面：https://www.acwsouth.org/event/cybersec-star-2023    
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### 智慧安全會議室管理系統
 智慧物聯網、其他跨領域資安情境
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Meet.png"/>
@@ -18,11 +24,11 @@
 
   
 #### 第一次相見
-<img width="800" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
+<img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
 
   
 #### 固定時間開會
-<img width="800" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
+<img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
 
 #### 企業參訪
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20231026_GSS%E5%8F%83%E8%A8%AA.jpg"/>
@@ -62,6 +68,8 @@ CSP_FORM_ACTION = ("'self'",)
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 ### Checkmarx （達到 0 漏洞檢出）
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
@@ -75,6 +83,8 @@ CSP_FORM_ACTION = ("'self'",)
 - CSRF
 - DB_Parameter_Tampering
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
