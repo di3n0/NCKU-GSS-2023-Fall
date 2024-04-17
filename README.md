@@ -12,6 +12,10 @@
 
 ### 智慧安全會議室管理系統
 智慧物聯網、其他跨領域資安情境
+有鑑於目前日益重視的資訊安全議題，其中很多漏洞皆是由於在開發階段沒有考慮安全程式開發所導致。  
+因此我們需要一個由「安全程式開發」為核心概念的新系統，以會議室預約作為主題。  
+
+
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Meet.png"/>
   
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AD%B8%E7%BF%92%E6%B5%81%E7%A8%8B.PNG"/>
