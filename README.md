@@ -12,15 +12,15 @@
 
 ### 智慧安全會議室管理系統
 智慧物聯網、其他跨領域資安情境
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Meet.png"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Meet.png"/>
   
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AD%B8%E7%BF%92%E6%B5%81%E7%A8%8B.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AD%B8%E7%BF%92%E6%B5%81%E7%A8%8B.PNG"/>
   
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E6%92%B0%E5%AF%AB%E6%AA%94%E6%A1%88.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E6%92%B0%E5%AF%AB%E6%AA%94%E6%A1%88.PNG"/>
   
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E6%A8%B9%E8%8E%93%E6%B4%BE%E8%88%87%E9%9B%B2%E7%9A%84%E6%87%89%E7%94%A8.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E6%A8%B9%E8%8E%93%E6%B4%BE%E8%88%87%E9%9B%B2%E7%9A%84%E6%87%89%E7%94%A8.PNG"/>
 
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AF%A6%E9%AB%94%E5%B1%95%E7%A4%BA.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AF%A6%E9%AB%94%E5%B1%95%E7%A4%BA.PNG"/>
 
 
 - [自己刻網站](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/NCKU%E8%B3%87%E5%AE%89%E6%96%B0%E7%A7%80)
@@ -31,7 +31,10 @@
 <br/>
 <br/>
 <br/>
-  
+<br/>
+<br/>
+<br/>
+
 #### 第一次相見
 <img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
 
@@ -44,9 +47,14 @@
 
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### [ZAP](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/ZAP)
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
 
 #### High
 **SQL 注入 - SQLite**  
@@ -79,9 +87,13 @@ CSP_FORM_ACTION = ("'self'",)
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+
 
 ### Checkmarx （達到 0 漏洞檢出）
-<img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
+<img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
 
 #### High
 - Vulnerable packages
