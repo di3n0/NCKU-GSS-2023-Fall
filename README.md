@@ -22,6 +22,17 @@
 
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AF%A6%E9%AB%94%E5%B1%95%E7%A4%BA.PNG"/>
 
+<br/>
+<br/>
+
+- [自己刻網站](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/NCKU%E8%B3%87%E5%AE%89%E6%96%B0%E7%A7%80)
+- [Arduio](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/Arduino)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
   
 #### 第一次相見
 <img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
@@ -47,7 +58,7 @@ https://xxxxxx.azurewebsites.net/meeting/register/
 #### Medium
 **Content Security Policy (CSP) Header Not Set**
 ```python
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">  
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">  
 @csp_update(SCRIPT_SRC="'self'")  
 Debug=False  
 
