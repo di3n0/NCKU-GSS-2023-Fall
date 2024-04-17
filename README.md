@@ -18,26 +18,29 @@
 
   
 #### 第一次相見
-<img src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
+<img width="800" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
 
   
 #### 固定時間開會
-<img src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
+<img width="800" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
 
 #### 企業參訪
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20231026_GSS%E5%8F%83%E8%A8%AA.jpg"/>
 
+<br/>
+<br/>
 
 ### ZAP
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
 
 #### High
 **SQL 注入 - SQLite**
-https://xxxxxx.azurewebsites.net/meeting/register/
-解：.clean 輸入
+https://xxxxxx.azurewebsites.net/meeting/register/  
+解：.clean 輸入  
 
 #### Medium
 **Content Security Policy (CSP) Header Not Set**
+```python
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">  
 @csp_update(SCRIPT_SRC="'self'")  
 Debug=False  
@@ -47,12 +50,18 @@ CSP_IMG_SRC = ("'none'",)
 CSP_CHILD_SRC = ("'none'",)  
 CSP_FRAME_ANCESTORS = ("'self'",)  
 CSP_FORM_ACTION = ("'self'",)  
+```
 
+<br/>
 
 **CSP: Wildcard Directive**
+```python
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; child-src 'none'; form-action 'self';">  
+```
 
-
+<br/>
+<br/>
+<br/>
 
 ### Checkmarx （達到 0 漏洞檢出）
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/Checkmarx.PNG"/>
@@ -65,6 +74,10 @@ CSP_FORM_ACTION = ("'self'",)
 - Parameter_Tampering
 - CSRF
 - DB_Parameter_Tampering
+
+<br/>
+<br/>
+<br/>
 
 ### 安全的措施
 **註冊密碼**
