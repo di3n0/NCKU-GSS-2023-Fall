@@ -22,8 +22,6 @@
 
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/%E5%AF%A6%E9%AB%94%E5%B1%95%E7%A4%BA.PNG"/>
 
-<br/>
-<br/>
 
 - [自己刻網站](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/NCKU%E8%B3%87%E5%AE%89%E6%96%B0%E7%A7%80)
 - [Arduio](https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/tree/main/Arduino)
@@ -51,7 +49,7 @@
 <img width="800" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/ZAP.PNG"/>
 
 #### High
-**SQL 注入 - SQLite**
+**SQL 注入 - SQLite**  
 https://xxxxxx.azurewebsites.net/meeting/register/  
 解：.clean 輸入  
 
