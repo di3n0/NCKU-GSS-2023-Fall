@@ -39,12 +39,6 @@
 <br/>
 <br/>
 
-#### 第一次相見
-<img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230908%20meeting.jpg"/>
-
-  
-#### 固定時間開會
-<img width="100" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20230921meeting.jpg"/>
 
 #### 企業參訪
 <img width="600" height="400" src="https://github.com/SmallliDinosaur/NCKU-GSS-2023-Fall/blob/main/picture/20231026_GSS%E5%8F%83%E8%A8%AA.jpg"/>
